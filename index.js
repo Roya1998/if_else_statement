@@ -65,6 +65,17 @@ if (!studentName.length > 4) {
   console.log("this name is long");
 }
 
+//Example 6
+
+const emptyAccount = 0;
+const account = true;
+
+if (!emptyAccount || account) {
+  console.log("account is full");
+} else {
+  console.log("account is empty");
+}
+
 // Ternary operator
 
 const temperature = 15;
