@@ -76,6 +76,29 @@ if (!emptyAccount || account) {
   console.log("account is empty");
 }
 
+// Example 7
+
+const weatherTemperature = [10, 12, 14, 10, 18, 18, 20];
+
+const [
+  mondayTemp,
+  tuesdayTemp,
+  wednesdayTemp,
+  thursdayTemp,
+  fridayTemp,
+  saturdayTemp,
+  sundayTemp,
+] = weatherTemperature;
+
+if (
+  (mondayTemp === 10 && thursdayTemp === 10) ||
+  (tuesdayTemp === 17 && fridayTemp === 30)
+) {
+  console.log("monday and thursday weather look alike");
+} else {
+  console.log("weather is different");
+}
+
 // Ternary operator
 
 const temperature = 15;
